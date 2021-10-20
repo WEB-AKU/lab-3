@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: 0.8em Arial, Helvetica, sans-serif; 
+            background-color: rgb(103, 150, 103); 
+            color: #ffffff;
+        }
+        a { color: rgb(103, 150, 103); }
+        .container {
+            width: 500px; 
+            margin: 0 auto; 
+            background-color: #ffffff; 
+        }
+        .header { 
+            font-size: 20px; 
+            text-align: center; 
+            padding: 5px; 
+            background: #10460a; 
+        }
+        .nav, .aside {
+            float: left; 
+            width: 100px; 
+            padding: 5px;
+        }
+        .content {
+            background: #698566;
+            margin: 0 120px; /* Ширина колонок */
+            padding: 10px;
+        }
+        .aside {
+            float: right; 
+            color: #000;
+        }
+        h2 { margin: 0 0 1em; }
+        .footer { 
+            clear: both; /* Отменяем действие float */
+            padding: 5px; 
+            background-color: #10460a
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">В мире футбола</div>
+
+        <div class="nav">
+         <p><a href="#">Статистика турниров</a></p>
+         <p><a href="#">Интервью с игроками</a></p>
+         <p><a href="#">Прогнозы</a></p>
+         <p><a href="#">Новости украинского футбола</a></p>
+        </div>
+
+        <div class="aside">
+         <h3>Предстоящие матчи</h3>
+         <p>Атлетико - Бетис</p>
+         <p>Барселона - Алавес</p>
+         <p>Лион - Ланс</p>
+        </div> 
+
+        <div class="content"> 
+        <h2>Новости футбола</h2>
+         <ul>
+          <li>Украина - Босния и Герцеговина: предматчевая пресс-конференция Александра Петракова</li>
+          <li>Испания - Франция: Луис Энрике нашел причину поражения без скандального  
+            гола Мбаппе </li>
+          <li>Шахтер заработал больше 2 млрд гривен за прошлый сезон</li>
+          <li>Месси оформил удивительный гол-ассист и обновил феноменальное достижение</li>
+          <li>Финляндия - Украина: Яремчук выбрал своего игрока матча отбора ЧМ-2022</li>
+          <li>Пятов признался, почему передумал завершать карьеру
+            в сборной Украины
+          </li>
+          <li>Ньюкасл нацелился на звезду Барселоны</li>
+          <li>Ливерпуль следит за переговорами Дембеле и Барселоны</li>
+          <li>Барселона рассматривает Стерлинга лишь запасным вариантом - все будет зависеть от выбора Дембеле</li>
+         </ul>
+        </div>
+        <div class="footer">в мире футбола </div>
+       </div>
+</body>
+</html>
